@@ -15,7 +15,23 @@
 We develop a new robust detector based on the two-stage detector, which includes the Squeeze-and-Excitation Deep Layer Aggregation network (SEDLA) as backbone and the rethinking mechanism of the scale fusion neck. Our overall model is as follows:
 
 ![image](demo/framework.jpg)
-
+```
+├─.idea
+│  └─inspectionProfiles
+├─backbone
+│  ├─pretrain
+│  └─__pycache__
+├─data
+├─demo
+├─exe
+├─my_dataset
+│  └─__pycache__
+├─network_files
+│  └─__pycache__
+├─save_weights
+└─train_utils
+    └─__pycache__
+```
 
 ## Training
 **Train directly**    
@@ -46,10 +62,10 @@ Run [predict.py](predict.py) to generate interpretable heat maps, proposal cover
 ![image](exe/detection.png)
 
 ## Acknowledgments  
-[Grad-Cam(EigenCAM)](https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html)[[**URL**]](https://github.com/jacobgil/pytorch-grad-cam )   
-[DLA BASE](https://openaccess.thecvf.com/content_cvpr_2018/html/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.html)[[**URL**]](https://github.com/ucbdrive/dla  )  
-[RFPN](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_DetectoRS_Detecting_Objects_With_Recursive_Feature_Pyramid_and_Switchable_Atrous_CVPR_2021_paper.html)[[**URL**]](https://github.com/joe-siyuan-qiao/DetectoRS)   
-[Otehrs](https://www.bilibili.com/video/BV1of4y1m7nj/?spm_id_from=333.999.0.0)[[**URL**]](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)  
+[Grad-Cam(EigenCAM)](https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html)  [[**URL**]](https://github.com/jacobgil/pytorch-grad-cam )   
+[DLA BASE](https://openaccess.thecvf.com/content_cvpr_2018/html/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.html)  [[**URL**]](https://github.com/ucbdrive/dla  )  
+[RFPN](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_DetectoRS_Detecting_Objects_With_Recursive_Feature_Pyramid_and_Switchable_Atrous_CVPR_2021_paper.html)  [[**URL**]](https://github.com/joe-siyuan-qiao/DetectoRS)   
+[Otehrs](https://www.bilibili.com/video/BV1of4y1m7nj/?spm_id_from=333.999.0.0)  [[**URL**]](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)  
 
 ## license
 [MIT](LICENSE) © YanjieWen
