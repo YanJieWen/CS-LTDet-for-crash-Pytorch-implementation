@@ -34,22 +34,22 @@ Similar to training, you only need to modify `num_classes` and `label_json_path`
 ## Results  
 Run [predict.py](predict.py) to generate interpretable heat maps, proposal coverage maps, data augmentation images and detection results in the `demo` folder. The results are stored in the `exe` directory.
 **without Grad-Grad-cam：**  
-![image](exe/Grad_cam-003.png)
+![image](exe/Grad_cam-003.png=100x200)
 
 **Transforms:**   
-![image](exe/trans.png)
+![image](exe/trans.png=100x200)
 
 **Proposals:** 
-![image](exe/proposals.png)
+![image](exe/proposals.png=100x200)
 
 **Detections:**
-![image](exe/detection.png)
+![image](exe/detection.png=100x200)
 
 ## Acknowledgments  
 [Grad-Cam(EigenCAM)](https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html): https://github.com/jacobgil/pytorch-grad-cam  
 [DLA BASE](https://openaccess.thecvf.com/content_cvpr_2018/html/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.html): https://github.com/ucbdrive/dla  
 [RFPN](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_DetectoRS_Detecting_Objects_With_Recursive_Feature_Pyramid_and_Switchable_Atrous_CVPR_2021_paper.html): https://github.com/joe-siyuan-qiao/DetectoRS  
-Otehrs(https://www.bilibili.com/video/BV1of4y1m7nj/?spm_id_from=333.999.0.0):  https://github.com/WZMIAOMIAO/deep-learning-for-image-processing
+[Otehrs](https://www.bilibili.com/video/BV1of4y1m7nj/?spm_id_from=333.999.0.0):  https://github.com/WZMIAOMIAO/deep-learning-for-image-processing
 
 ## license
 [MIT](LICENSE) © YanjieWen
