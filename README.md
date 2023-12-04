@@ -25,7 +25,7 @@ You can switch between two training modes: `VOC07trainval-VOC07test(VOC07)` and 
 **Continue training**  
 If you want to continue training, you can download the trained weight file from [Google Cloud Disk ](https://drive.google.com/file/d/1Fv84ZJSLZBog-cc1LWtIiC1ylSfW-zJU/view?usp=drive_link). Next, put it into [save_weights](save_weights) and modify `resume` in [train_engine](train_engine.py) to point to the weights file.  
 
-**Train your own data**
+**Train your own data**  
 You first need to create the data set in VOC format. Of course, you can also do it according to any data format of [COCO](https://cocodataset.org/#home), but just rewrite a [datasets.py](my_dataset/datasets.py), about COCO dataset For reading, you can refer to [pycocotools](https://pypi.org/project/pycocotools/). Next, you need to make a classification similar to (pascal_voc_classes.json)[data/pascal_voc_classes.json]. The file is read as a dictionary. Finally, you only need to modify the `num_classes` and `class_path` parameters to train your dataset.  
 
 ## Validation  
@@ -46,10 +46,10 @@ Run [predict.py](predict.py) to generate interpretable heat maps, proposal cover
 ![image](exe/detection.png)
 
 ## Acknowledgments  
-[Grad-Cam(EigenCAM)](https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html)[[**URL**]](https://github.com/jacobgil/pytorch-grad-cam ) 
-[DLA BASE](https://openaccess.thecvf.com/content_cvpr_2018/html/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.html)[[**URL**]](https://github.com/ucbdrive/dla  )
-[RFPN](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_DetectoRS_Detecting_Objects_With_Recursive_Feature_Pyramid_and_Switchable_Atrous_CVPR_2021_paper.html)[[**URL**]](https://github.com/joe-siyuan-qiao/DetectoRS) 
-[Otehrs](https://www.bilibili.com/video/BV1of4y1m7nj/?spm_id_from=333.999.0.0)[[**URL**]](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)
+[Grad-Cam(EigenCAM)](https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html)[[**URL**]](https://github.com/jacobgil/pytorch-grad-cam )   
+[DLA BASE](https://openaccess.thecvf.com/content_cvpr_2018/html/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.html)[[**URL**]](https://github.com/ucbdrive/dla  )  
+[RFPN](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_DetectoRS_Detecting_Objects_With_Recursive_Feature_Pyramid_and_Switchable_Atrous_CVPR_2021_paper.html)[[**URL**]](https://github.com/joe-siyuan-qiao/DetectoRS)   
+[Otehrs](https://www.bilibili.com/video/BV1of4y1m7nj/?spm_id_from=333.999.0.0)[[**URL**]](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)  
 
 ## license
 [MIT](LICENSE) © YanjieWen
