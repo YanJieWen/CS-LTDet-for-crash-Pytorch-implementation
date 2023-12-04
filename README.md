@@ -19,4 +19,4 @@ We develop a new robust detector based on the two-stage detector, which includes
 
 ## Training
 **Train directly**  
-We conducted experiments on the VOC small data set, and the mAP@0.5 was `81.6`. If you want to run the training model directly, you can run [train_engine](train_engine.py) directly. The premise is that your data should be placed in the [data] (data) directory like VOC type, and the pre-trained weights of the DLA backbone can be obtained in [Google Cloud Disk]() or [url](http://dl.yf.io/dla/models).
+We conducted experiments on the VOC small data set, and the mAP@0.5 was `81.6` and achieved good results in the top 10 of the [Tensorboard](https://paperswithcode.com/sota/object-detection-on-pascal-voc-2007). If you want to run the training model directly, you can run [train_engine](train_engine.py) directly. The premise is that your data should be placed in the [data] (data) directory like VOC type, and the pre-trained weights of the DLA backbone can be obtained in [Google Cloud Disk]() or [url](http://dl.yf.io/dla/models).
