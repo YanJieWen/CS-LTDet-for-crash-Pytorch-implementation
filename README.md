@@ -32,8 +32,8 @@ You first need to create the data set in VOC format. Of course, you can also do 
 Similar to training, you only need to modify `num_classes` and `label_json_path` for evaluation, and it will generate an evaluation txt file [record_mAP.txt](record_mAP.txt).
 
 ## Results  
-通过运行[predict.py](predict.py)来生成`demo`文件夹下的可解释性的热力图，提议覆盖图，数据增强图像以及检测结果。结果存放在`exe`目录下。
-**无梯度Grad-cam：**  
+Run [predict.py](predict.py) to generate interpretable heat maps, proposal coverage maps, data augmentation images and detection results in the `demo` folder. The results are stored in the `exe` directory.
+**without Grad-Grad-cam：**  
 ![image](exe/Grad_cam-003.png)
 
 **Transforms:**   
@@ -44,3 +44,13 @@ Similar to training, you only need to modify `num_classes` and `label_json_path`
 
 **Detections:**
 ![image](exe/detection.png)
+
+## Acknowledgments  
+[Grad-Cam(EigenCAM)](https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html): https://github.com/jacobgil/pytorch-grad-cam  
+[DLA BASE](https://openaccess.thecvf.com/content_cvpr_2018/html/Yu_Deep_Layer_Aggregation_CVPR_2018_paper.html): https://github.com/ucbdrive/dla  
+[RFPN](https://openaccess.thecvf.com/content/CVPR2021/html/Qiao_DetectoRS_Detecting_Objects_With_Recursive_Feature_Pyramid_and_Switchable_Atrous_CVPR_2021_paper.html): https://github.com/joe-siyuan-qiao/DetectoRS  
+Otehrs(https://www.bilibili.com/video/BV1of4y1m7nj/?spm_id_from=333.999.0.0):  https://github.com/WZMIAOMIAO/deep-learning-for-image-processing
+
+## license
+[MIT](LICENSE) © YanjieWen
+
