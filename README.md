@@ -13,4 +13,4 @@
 
 We develop a new robust detector based on the two-stage detector, which includes the Squeeze-and-Excitation Deep Layer Aggregation network (SEDLA) as backbone and the rethinking mechanism of the scale fusion neck. Our overall model is as follows:
 
-![image](demo/framework.png)
+![image](demo/framework.jpg)
