@@ -34,7 +34,8 @@ Similar to training, you only need to modify `num_classes` and `label_json_path`
 ## Results  
 Run [predict.py](predict.py) to generate interpretable heat maps, proposal coverage maps, data augmentation images and detection results in the `demo` folder. The results are stored in the `exe` directory.
 **without Grad-Grad-cam：**  
-![image](exe/Grad_cam-003.png=100x200)
+<img src="exe/Grad_cam-003.png" width="100" height="200" alt="高速摄影布点"/><br/>   
+
 
 **Transforms:**   
 ![image](exe/trans.png=100x200)
