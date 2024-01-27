@@ -1,4 +1,4 @@
-# MS-SEDLA-for-crash-Pytorch-implementationch
+# CS-LTDet-for-crash-Pytorch-implementation
 
 **Noval application:** The study of Crashworthiness based on computer vision  
 
